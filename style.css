@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    flex-direction: column;
+}   
+
+.flex {
+    display: flex;
+}
+
+.square {
+    padding: 15px;
+    border: solid black 1px;
+    color: aqua;
+    background-color: aqua;
+}
