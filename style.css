@@ -1,15 +1,33 @@
 #container {
     display: flex;
     flex-direction: column;
+    max-height: 90vh;
+    height: 90vh;
+    max-width: 100%;
+    width: 100%;
 }   
 
 .flex {
     display: flex;
+    flex:1;
+    
+    max-height: 100vh;
+    height: 100vh;
+
 }
 
 .square {
-    padding: 15px;
+    padding: auto;
+    flex: 1;
     border: solid black 1px;
-    color: aqua;
-    background-color: aqua;
+    background-color: white;
+}
+
+#button{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: black solid;
+    border-radius: 10px;
+    font-weight: bold;
 }
